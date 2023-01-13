@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+
+body {
+    margin: 0;
+    font-family: Inter;
+}
+
+div {
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    font-weight: 300;
+}
+
+h3 {
+    color: #5A537B;
+    font-weight: 200;
+    transition: color 2s;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input {
+    background-color: #6943FF;
+    border: 1px solid #B295FF;
+    font-size: 4em;
+    width: 4em;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+button {
+    color: #3D3D3D;
+    font-size: 1em;
+    font-weight: 100;
+    padding: 10px;
+    margin-bottom: 1em;
+    background-color: white;
+    border: 1px solid #3D3D3D;
+    border-radius: 5px;
+    
+}
+
+.header {
+    background-color: #6943FF;
+}
+
+.bottom {
+    background-color: #F4F4F4;
+    align-items: center;
+}
+
+.conversion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+    margin: 1em;
+    border: 1px dotted dodgerblue;
+    border-radius: 10px;
+    transition: background .4s;
+}
+
+span {
+    margin-bottom: 1em;
+    color: #3D3D3D;
+    transition: color .4s;
+}
+
+.dark-mode {
+    background-color: #273549;
+    transition: background .4s;
+}
+
+.dark-mode-text {
+    color: #CCC1FF;
+    transition: color .4s;
+}
+
+.dark-mode-bg {
+    background-color: #1F2937;
+    transition: background .4s;
+}
+
+.dark-mode-span {
+    color: #FFFFFF;
+    transition: color .4s;
+}
